@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ab608417;
+}
+
+/* MODAL STYLE ______________________*/
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-footer {
+  padding: 0px;
+  position:relative;
+  bottom: 20px;
+  left:5px;
+}
+
+.modal-content {
+  padding: 0px;
+  border-radius: 30px;
+  width: 600px;
+  height: 757px;
+}
+
+.modal-title {
+  position: absolute;
+}
+
+.modal-body .row {
+  margin: 0px;
+}
+.modal-title {
+  margin: 78px 0px 50px 76px;
+  color: #cbcbcb;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.modal-subtitle {
+  margin: 150px 0px 50px 76px;
+}
+
+.modal-content {
+  width: 600px;
+  height: 750px;
+  overflow: hidden;
+}
+
+.btn-close {
+  position: absolute;
+}
+
+.detail-header {
+}
+
+.modal-header {
+  padding: 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 0.5px solid black;
+  border-radius: 30px;
+  padding: 10px 19px 11px 26px;
+}
+
+body h1:nth-child(1) {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 22px;
+  color: #610631;
+  margin: 12px;
+  font-weight: 600;
+}
+
+.table-nutrition li:nth-child(2) {
+  color: #610631;
+  font-weight: 600;
+}
+
+/* SWIPE STYLE INSIDE _________________________________________________*/
+
+/* SLIDE INFERIOR */
+.swiper {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+/* SLIDE SUPERIOR */
+.mySwiper2 {
+  height: 150px;
+  width: 180px;
+}
+/* SLIDE INFERIOR */
+.mySwiper {
+  height: 14%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+/* SLIDE INFERIOR */
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+/* IMG CONFIG */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/* SWIPE OUSIDE */
+
+

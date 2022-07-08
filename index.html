@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body class="container">
+    <h1 class="container-fluid">PRODUTOS</h1>
+
+    <div class="card-product">
+      <div>
+        <img
+          type="button"
+          class=""
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          src="/assets/card-product.svg"
+          alt=""
+        />
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="detail-header">
+                <img src="/assets/detail-header.svg" alt="#" />
+              </div>
+
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md">
+                  <!-- swiper-modal -->
+                  <div
+                    style="
+                      --swiper-navigation-color: #fff;
+                      --swiper-pagination-color: #fff;
+                    "
+                    class="swiper mySwiper2"
+                  >
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div thumbsSlider="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/image-food.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- swiper-modal-end -->
+                </div>
+                <div class="col-md">
+                  <h1>DESCRIÇÃO</h1>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Maiores consequatur cum a, aliquam fuga vero iste illo ut
+                    fugit, consectetur reprehenderit, autem eius! Ratione
+                    veritatis fuga, aut optio amet voluptatum.
+                  </p>
+                </div>
+              </div>
+              <h1>TABELA NUTRICIONAL</h1>
+              <div class="col-md table-nutrition">
+                <ul>
+                  <li>Valor Energético</li>
+                  <li>330kcal</li>
+                </ul>
+                <ul>
+                  <li>Valor Energético</li>
+                  <li>330kcal</li>
+                </ul>
+                <ul>
+                  <li>Valor Energético</li>
+                  <li>330kcal</li>
+                </ul>
+                <ul>
+                  <li>Valor Energético</li>
+                  <li>330kcal</li>
+                </ul>
+              </div>
+            </div>
+            <!-- end-modal -->
+
+            <div class="modal-footer">
+              <img src="/assets/detail-footer.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <a href="/modal-exemple-2.html"> click </a>
+    <!-- scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/script-modal.js"></script>
+  </body>
+</html>
